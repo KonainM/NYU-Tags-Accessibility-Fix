@@ -68,7 +68,7 @@ function nyu_metabox_content( $post, $box ) {
 		<p><?php echo $taxonomy->labels->no_terms; ?></p>
 	<?php endif; ?>
 	</div>
-	<ul class="tagchecklist" role="list"></ul>
+	<ul class="tagchecklist" role="region"></ul>
 </div>
 <?php if ( $user_can_assign_terms ) : ?>
 <p class="hide-if-no-js"><button type="button" class="button-link tagcloud-link" id="link-<?php echo $tax_name; ?>" aria-expanded="false"><?php echo $taxonomy->labels->choose_from_most_used; ?></button></p>
